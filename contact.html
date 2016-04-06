@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta name="description" content="ME Innovation - the online portfolio for Marcus Eubanks. Do you want to get in touch with me? There is where you want to be.">
+		<title>ME Innovation Remixed | Contact</title>
+        <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css" />
+		<link rel="stylesheet" type="text/css" href="css/marcusEubanks_termp.css">
+		<link rel="stylesheet" type="text/css" href="css/print.css" media="print">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+        <script src="js/form.js"></script>
+        <script src="js/termProject.js"></script>
+	</head>
+
+	<body>
+		<div class="container">
+				<header>
+            	<nav class="navClass">
+                	<div>
+                    	<a href="http://www.linkedin.com/in/MEInnovation">
+                   		 	<img id="linkedIn" src="images/linkedIn_black20x20.png" alt="LinkedIn Icon" />
+                    	</a>
+                    </div>
+                	<ul>
+                    	<li>
+                        	<div class="mobileNav">
+                        		<a href="index.html">
+                                	Home
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                        	<div class="mobileNav">
+                            	<a href="aboutme.html">
+                                	About ME
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                        	<div class="mobileNav">
+                        		<a href="portfolio.html">
+                                	Portfolio
+                                </a>
+                            </div>    
+                        </li>
+                        <li>
+                        	<div class="mobileNav">
+                        		<a href="extras.html">
+                                	Extras
+                                </a>
+                            </div>
+                        </li>
+                       <!-- <li>
+                        	<div class="mobileNav">
+                        		<a href="contact.html" class="selected">
+                                	Contact
+                                </a>
+                            </div>
+                        </li>-->
+                    </ul>
+                </nav>
+                <a href="#">
+				<img class="jumboHeader" src="images/melogo_remixed.png" alt="ME Innovation Remixed Logo" />
+                </a>
+			</header>
+			<aside class="extraPageSpaceTopContact">
+            	<div id="meBoard">
+                	<div id="boardHeading">
+                    	ME Board
+                    </div>
+                	<div id="meBoardInner">
+                    	<!--Content-->
+                    </div>
+                </div>
+            </aside>
+            	<h1>Contact</h1>
+			<section>
+				<div class="contentBlock">
+                    <p>Please fill out this form to find out more about my skills and freelance availability</p>
+					<form action="form/meInnovationContact.php" method="post" name="contact" id="contact" onSubmit="return formValidate()">
+                    	<fieldset>
+                    		<legend>
+                            	ME Contact Form
+                            </legend>
+                        		<div id="fields">                     
+                        			<label for="name">
+                                    	Name*:
+                                    </label>
+                       				<input type="text" name="name" id="name" required>
+                                    <br class="clearFit" />
+                        			<label for="emailAdd">
+                                    	Email*:
+                                    </label>
+                        			<input type="text" name="emailAdd" id="emailAdd" required>
+                                    <br class="clearFit" />
+                        			<label for="phone">
+                                    	Phone:
+                                    </label>
+                        			<input type="text" name="phone" id="phone">
+                                    <br />
+                        		</div>
+                        		<div id="checkboxes">
+                        			<label class="longLabel">
+                                    	Where do you need help?
+                                    </label>
+                                    <br class="clearFit" />
+                        			<input type="checkbox" name="checkval[]" value="Design">
+                                    	Graphic Design
+                                    <br />
+                        			<input type="checkbox" name="checkval[]" value="Marketing">
+                                    	Marketing
+                                    <br />
+                        			<input type="checkbox" name="checkval[]" value="Web Development">
+                                    	Web Development
+                                    <br />
+                        			<input type="checkbox" name="checkval[]" value="Programming">
+                                    	Programming
+                                    <br />
+                        		</div>
+                        	    <textarea name="message" placeholder="Type in your message here">
+                                </textarea>
+                                <br />
+                        		<input type="submit" name="submit" value="Submit">
+                        		<input type="reset" name="reset" value="Clear">
+                    	</fieldset>  
+                    </form>
+				</div>
+			</section>
+
+			<footer>
+				<small>
+                	&copy;2014 Marcus Eubanks | ME Innovation
+                </small>
+			</footer>
+		</div>
+	</body>
+</html>

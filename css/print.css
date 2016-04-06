@@ -1,0 +1,167 @@
+/* Marcus Eubanks Print CSS */
+
+section {
+	
+	background-color: white;
+	border-radius: 0px 0px 0px 0px white;
+	box-shadow: 3px 3px 3px 3px white;
+	margin: 2px;
+}
+
+table {
+
+	background-color: white;
+	margin-bottom: 0px;
+}
+
+.myPhoto {
+
+	display: none;
+}
+
+body {
+
+	padding: 0px;
+	font-size: 12px;
+	margin: 2px;
+	background-image: none;
+	font-family: "Times New Roman", Times, serif;
+}
+
+.jumboHeader {
+	
+	padding: 5px 0px 5px 0px;
+}
+
+.contentBlock {
+
+	margin: 0px;
+	padding: 0px;
+}
+
+.container {
+
+	margin: 0px;
+}
+
+audio {
+	display: none;	
+}
+
+.columnGrid {
+	width: 40%;
+	padding-left: 10px;
+	float: none;
+	margin: 2px;
+}
+
+.columnLayout {
+	width: 90%;
+	padding-left: 10px;
+	padding-bottom: 0px;
+}
+
+p {
+	orphans: 1;
+}
+
+aside {
+	display: none;	
+}
+#homeImageText {
+	font-size: 2em;	
+}
+nav > ul {
+	float: right;
+	margin: 1em 2em 0 1em;
+}
+
+nav > ul > li {
+	display: inline;
+	padding: .5em;
+	list-style-type: none;
+	font-size: .8em;
+	text-shadow: .05em .06em #bbb;
+	text-decoration: none;
+}
+.button {
+	display: none;	
+}
+.sectionAbout {
+	margin-bottom: 2px;	
+}
+.gallImages {
+	width: 19%;	
+}
+#thumblist {
+	float: right;
+	background-color: #999;
+	padding: 15px 0px 15px 15px;
+	display: block;
+}
+.portColumnGrid {
+	width: 55%;	
+	margin: 11em 0 0 33em;
+}
+#thumblist img:hover {
+	background-color: #ff0098;
+	opacity: .4;
+}
+.portThumbColumnGrid {
+	width: 50%;	
+}
+#thumbnail {
+	width: 80%;
+	float: left;
+	height: 35em;
+	border: solid .5em #ff0098;
+	background-color: #666;
+}
+button {
+	background-color:#fff;
+	color:#fff;
+	font-size: 1.25em;
+	border-radius: .8em;
+	padding: .3em;
+	margin: .06em;
+	border: none;
+	box-shadow: .03em .05em .03em .05em #666;
+}
+button:hover {
+	background-color:#fff;
+	color:#fff;
+	font-size: 1.25em;
+	border-radius: .8em;
+	padding: .3em;
+	margin: .06em;
+	border: none;
+	box-shadow: .03em .05em .03em .05em #666;
+}
+button {
+	background-color:#fff;
+	color:#fff;
+	font-size: 1.25em;
+	border-radius: .8em;
+	padding: .3em;
+	margin: .06em;
+	border:solid .06em #FF0098;
+	box-shadow: .03em .05em .03em .05em #666;
+}
+button:hover {
+	background-color:#fff;
+	color:#fff;
+	font-size: 1.25em;
+	border-radius: .8em;
+	padding: .3em;
+	margin: .06em;
+	border: none;
+	box-shadow: none;
+}
+.button a{
+	background-color: transparent;
+	color:#fff;
+	font-size: 1.25em;
+}
+#linkedIn {
+	display: none;
+}

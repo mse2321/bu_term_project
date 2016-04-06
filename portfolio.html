@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta name="description" content="ME Innovation - the online portfolio for Marcus Eubanks. Here are the goods, my portfolio where you will find my works from design to programming.">
+		<title>ME Innovation Remixed | Portfolio</title>
+        <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css" />
+		<link rel="stylesheet" type="text/css" href="css/marcusEubanks_termp.css">
+		<link rel="stylesheet" type="text/css" href="css/print.css" media="print">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+		<script src="js/wrappedElement.js"></script>
+        <script src="js/termProject.js"></script>
+	</head>
+
+	<body>
+		<div class="container">
+        
+			<header>
+            	<nav class="navClass">
+                	<div>
+                    	<a href="http://www.linkedin.com/in/MEInnovation">
+                   		 	<img id="linkedIn" src="images/linkedIn_black20x20.png" alt="LinkedIn Icon" />
+                    	</a>
+                    </div>
+                	<ul>
+                    	<li>
+                        	<div class="mobileNav">
+                        		<a href="index.html">
+                                	Home
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                        	<div class="mobileNav">
+                            	<a href="aboutme.html">
+                                	About ME
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                        	<div class="mobileNav">
+                        		<a href="portfolio.html" class="selected">
+                                	Portfolio
+                                </a>
+                            </div>    
+                        </li>
+                        <li>
+                        	<div class="mobileNav">
+                        		<a href="extras.html">
+                                	Extras
+                                </a>
+                            </div>
+                        </li>
+                        <!-- <li>
+                        	<div class="mobileNav">
+                        		<a href="contact.html">
+                                	Contact
+                                </a>
+                            </div>
+                        </li> -->
+                    </ul>
+                </nav>
+                <a href="#">
+				<img class="jumboHeader" src="images/melogo_remixed.png" alt="ME Innovation Remixed Logo" />
+                </a>
+			</header>
+			<aside class="extraPageSpaceTopPort">
+            	<div id="meBoard">
+                	<div id="boardHeading">
+                    	ME Board
+                    </div>
+                	<div id="meBoardInner">
+                    	<!--Content-->
+                    </div>
+                </div>
+            </aside>            
+				<h1>
+                	Portfolio
+               </h1>
+               <p class="extraPageSpace">
+                    Here you will find examples of my personal projects from designs to programs. Keep checking in to see my latest additions!
+               </p>
+               <a id="Design" class="portText">
+               </a>
+                <h2>
+                	Design
+               </h2>
+               <p>
+                    Click on an image to get a better look.
+               </p>
+			<section class="extraPageSpace">
+    <!-- start of design portfolio -->             
+				<div class="columnGallLayout">
+                	<h3>
+               		Gallery
+               </h3>
+                
+                	<div class="portThumbColumnGrid">
+                		<div>
+     						<img id="thumbnail" src="images/chrissyPoster_d1.jpg" alt="Recital Poster"/>
+    					</div>
+                    </div>
+                    <div class="portColumnGrid">
+                		<div id="thumblist">
+    						<img class="gallImages" src="images/chrissyPoster_d1.jpg" alt="Recital Poster">
+    						<img class="gallImages" src="images/powellPoster_d2.jpg" alt="Colin Powell Poster">
+    						<img class="gallImages" src="images/airsCover_d3.jpg" alt="AIRS CD Cover">
+    						<img class="gallImages" src="images/meInnovationFlyer_d4.jpg" alt="ME Innovation Flyer">
+                    		<img class="gallImages" src="images/jaydenTrace_d5.jpg" alt="Jayden Tracing">
+    					</div>
+                    </div>
+                </div>
+    		</section>
+        <!-- end of design portfolio -->
+        
+        <!-- start of web portfolio -->
+        		<a id="Web" class="portText">
+                </a>
+            	<h2>
+                	Web Development
+                </h2>
+     		<section class="extraPageSpace" id="jqueryShow">
+               <h3>
+               		JQuery Image Showcase
+               </h3>
+               <p>
+                  	Click on the buttons below to use the application.
+               </p>
+        				<div class="buttonNav">
+            				<div>
+                            	<button id="show">
+                                	Show All Images
+                                </button>
+                            </div>
+        					<div>
+                            	<button id="hide">
+                                	Hide All Images
+                                </button>
+                           </div>
+            				<div>
+                            	<button id="even">
+                                	Show Even Images
+                                </button>
+                           </div>
+            				<div>
+                            	<button id="odd">
+                                	Show Odd Images
+                                </button>
+                           </div>
+            				<div>
+                            	<button id="right">
+                                	Right Shift
+                                </button>
+                           </div>
+            				<div>
+                            	<button id="left">
+                                	Left Shift
+                                </button>
+                           </div>
+        				</div>
+    					<div id="imageContainer">
+        					<img src="images/chrissyPoster_d1.jpg" alt="Chrissy Poster" id="cposter" />
+            				<img src="images/powellPoster_d2.jpg" alt="Colin Powell Poster" id="cp_poster" />
+            				<img src="images/airsCover_d3.jpg" alt="Airs Cover" id="airs" />
+            				<img src="images/meInnovationFlyer_d4.jpg" alt="ME Innovation Flyer" id="meflyer" />
+            				<img src="images/jaydenTrace_d5.jpg" alt="Jayden Tracing" id="jtracing" />
+        				</div>
+            			<div id="results">
+            				Results Box
+            			</div>
+    		</section>
+			<footer>
+				<small>
+                	&copy;2014 Marcus Eubanks | ME Innovation
+                </small>
+			</footer>
+		</div>
+	</body>
+</html>

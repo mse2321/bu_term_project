@@ -1,0 +1,719 @@
+/* Marcus Eubanks Term Project CSS */
+
+/* Sass Declarations */
+$meinnovation-color-primary: #FF0098;
+$meinnovation-color-secondary: #000;
+$meinnovation-color-third: #fff;
+$content-border: #bbb;
+$font: Arial, Helvetica, sans-serif;
+
+/* Base/Foundational styling */
+body {
+	font-family: $font;
+	color: black;
+	margin: 2em;
+	background-size: 100%;
+	background: $meinnovation-color-third url("../images/meBackground.jpg") no-repeat fixed center top;
+}
+section {
+	background-color: rgba(0,0,0,0.1);
+	border-radius: 1em;
+	box-shadow: .25em .25em .25em .25em $meinnovation-color-secondary;
+	width: 80%;
+}
+aside {
+	float: right;	
+	width: 15%;
+	height: 10em;
+	margin: 0 2em 0em 2em;
+	border: solid .4em $content-border;
+	border-radius: 1em;
+	background-color: $meinnovation-color-primary;
+}
+a {
+	color: $meinnovation-color-primary;
+	text-decoration: none;
+}
+a:visited, a:link, a:active {
+	color: $meinnovation-color-primary;
+	font-weight: bold;
+}
+a:hover {
+	color: $meinnovation-color-secondary;
+	font-weight: bold;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: $meinnovation-color-primary;
+	text-shadow: .09em .08em #aaa;
+}
+h1 {
+	font-size: 2em;
+}
+h2 {
+
+	font-size: 1.5em;
+}
+h3 {
+
+	font-size: 1.25em;
+}
+
+li {
+	list-style-type: none;
+}
+table {
+	border: .14em solid $meinnovation-color-primary;
+	padding: .8em;
+	background-color: $meinnovation-color-third;
+	margin-bottom: .8em;
+}
+footer {
+	position: absolute;
+    bottom: 10px;
+    left: 50px;	
+	clear: both;
+}
+
+nav > ul {
+	float: right;
+	margin: 3em 3em 0 0em;
+}
+nav > ul > li {
+	display: inline;
+	padding: .8em;
+	list-style-type: none;
+	font-size: 1.5em;
+	text-shadow: .09em .08em $content-border;
+	text-decoration: none;
+
+}
+audio {
+	display: block;
+}
+
+/* Specific Styles */
+.container {	
+	margin: .8em;
+	width: 90%;
+}
+.homeImage {
+	 width: 80%;
+	 height: 24em;	
+	 background: $meinnovation-color-third url("../images/heroHeader.jpg") no-repeat;
+	 background-position:center;
+	 color: $meinnovation-color-third;
+	 border-radius: 2em;
+	 border: solid .4em $content-border;
+}
+.homeImage p {
+	font-size: 5em;
+	font-weight: bold;
+	margin: 1em;
+	text-align: center;
+	text-shadow: .05em .04em #666;
+}
+.homeSection {
+	background-color: transparent;
+	border-radius: 0;
+	box-shadow: none;
+}
+#linkedIn {
+	float: right;
+	margin: 3.2em 2em 0em -1em;
+}
+#meBoard {
+	margin: .8em;
+}
+#meBoardInner {
+	background-color: $meinnovation-color-third;
+	padding: .25em;
+	border: .18em solid $content-border;
+
+}
+#boardHeading {
+	font-size: 1.5em;
+	color: $meinnovation-color-third;
+	padding: .4em .4em .8em .4em;
+	text-align: center;
+	font-weight: bold;
+	text-shadow: .08em .06em $meinnovation-color-secondary;
+
+}
+.extraPageSpace {
+	margin-bottom: 2.3em;	
+}
+.extraPageSpaceTop {
+	margin-top: 13.6em;	
+}
+.extraPageSpaceTopAbout {
+	margin-top: 5em;	
+}
+.extraPageSpaceTopExtra {
+	margin-top: 8.5em;	
+}
+.extraPageSpaceTopContact {
+	margin-top: 5em;	
+}
+.extraPageSpaceTopPort {
+	margin-top: 13.9em;	
+}
+.jumboHeader {
+	width: 40%;
+	padding: 0 0 1em 0;
+}
+.lastSection {
+	margin-bottom: .4em;
+}
+
+.sectionAbout ul {
+	padding-left: 0;	
+}
+.contentBlock {
+	margin: 0;
+	padding: .8em 1.8em 2.6em 1.8em;
+}
+nav > ul > li > div.mobileNav {
+	display: inline;
+}
+
+
+.navClass a:hover, a:focus {	
+	color: $meinnovation-color-secondary;
+	text-decoration: none;
+}
+
+
+a:visited.selected {
+	color: $meinnovation-color-secondary;	
+}
+.button {
+	background-color: $meinnovation-color-secondary;
+	color: $meinnovation-color-third;
+	font-size: 1.25em;
+	border-radius: .8em;
+	padding: .3em;
+	margin: .06em;
+	border:solid .06em $meinnovation-color-primary;
+	text-align: center;
+	box-shadow: .03em .05em .03em .05em #666;
+	width: 13em;
+}
+.button a{
+	background-color: transparent;
+	color:$meinnovation-color-third;
+	font-size: 1.25em;
+}
+.button:hover {
+	background-color: $meinnovation-color-primary;
+	color:$meinnovation-color-third;
+	font-size: 1.25em;
+	border-radius: .8em;
+	padding: .3em;
+	margin: .06em;
+	border:solid .06em $content-border;
+	box-shadow: .03em .03em .03em .03em #666;
+}
+.button a:hover{
+	background-color: transparent;
+	color:$meinnovation-color-third;
+	font-size: 1.25em;
+}
+
+/* Responsive Layout Stuff */
+.columnLayout {
+	width: 100%;
+	margin-right: 0;
+	margin-left: 0;
+}
+
+.columnLayoutHome {
+	width: 100%;
+	margin-right: 0;
+	margin-left: 0;
+}
+
+/* For JavaScript Application Page */
+#japp {
+	font-family: $font;
+	font-size: 2em;
+	color: black;
+	margin: 4em;
+	background-color: rgba(0,0,0,0.1);
+	border-radius: 1em;
+	box-shadow: .25em .25em .25em .25em $meinnovation-color-secondary;
+	padding: .9em;
+}
+
+/* Form Styles */
+
+label {
+	float: left;
+	width: 5em;
+	text-align: left;
+}
+clearFit {
+	clear: both;
+}
+input {
+	margin-left: .3em;
+	margin-bottom: .5em;
+}
+
+input[type="radio"]{
+	
+	margin-left: 0;
+}
+
+input[type="checkbox"]{
+	
+	margin-left: 0;
+}
+
+input[type="text"]{
+	
+	width: 23em;
+}
+
+input[type="email"]{	
+	width: 23em;
+}
+input#phone{
+	width: 23em;
+	margin-bottom: 2em;
+}
+
+.longLabel {
+	float: none;
+}
+
+textarea {
+	height: 10em;	
+	width: 30em;
+	margin: 2em 0em 2em 0em;
+}
+
+legend {
+	color: $meinnovation-color-primary;
+	font-weight:bold;
+	padding-bottom: .8em;
+}
+
+/* JavaScript Showcase*/
+.wrappedElement {
+		border: .25em solid $meinnovation-color-primary;
+}
+.wrappedElementHide {
+		display: none;
+}
+
+img.wrappedElement {
+	border-color: $meinnovation-color-primary;
+	border-width: .25em;
+}
+
+div.wrappedElement {
+	padding: .4em;	
+}
+
+.buttonNav {
+	padding: .8em;
+	border-radius: .4em;
+}
+.buttonNav div {
+	display: inline;
+}
+button {
+	background-color:$meinnovation-color-secondary;
+	color:$meinnovation-color-third;
+	font-size: 1.25em;
+	border-radius: .8em;
+	padding: .3em;
+	margin: .06em;
+	border:solid .06em $meinnovation-color-primary;
+	box-shadow: .03em .05em .03em .05em #666;
+}
+button:hover {
+	background-color:$meinnovation-color-primary;
+	color:$meinnovation-color-third;
+	font-size: 1.25em;
+	border-radius: .8em;
+	padding: .3em;
+	margin: .06em;
+	border:solid .06em $content-border;
+	box-shadow: .03em .05em .03em .05em #666;
+}
+#imageContainer {
+	margin: 1.8em 1em 1.8em 1em;
+	padding: 1em;
+	width: 70%;
+	background-color: rgba(0,0,0,0.1);
+}
+#imageContainer img{
+	padding: .4em;
+}
+#results {
+	padding: 1.7em;
+	margin: 1.8em 4em 1.8em 1em;	
+	color: $meinnovation-color-third;
+	font-weight: bold;
+	background-color: $meinnovation-color-primary;
+	border-radius: .4em;
+	width: 40%;
+}
+#jqueryShow {
+	padding: 15px;	
+}
+#clear {
+	background-color: $meinnovation-color-primary;
+	color:$meinnovation-color-third;
+}
+
+/* For Design Portfolio */
+.columnGallLayout {
+	width: 100%;
+	margin: 1em;
+	padding: 20px;
+	height: 42em;
+}
+
+.gallImages {
+	width: 19%;	
+}
+#thumblist {
+	float: right;
+	background-color: #999;
+	padding: 15px 0px 15px 15px;
+	display: block;
+}
+.portColumnGrid {
+	width: 55%;	
+	margin: 11em 0 0 33em;
+}
+#thumblist img:hover {
+	background-color: $meinnovation-color-primary;
+	opacity: .4;
+}
+.portThumbColumnGrid {
+	width: 50%;	
+}
+#thumbnail {
+	width: 60%;
+	float: left;
+	height: 35em;
+	border: solid .5em $meinnovation-color-primary;
+	background-color: #666;
+}
+
+#imageContainer img {
+	width: 12%;	
+}
+
+/* Mobile Styling */
+
+@media screen and (max-width: 33.3em) {
+
+	.container {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.jumboHeader {
+		width: 97%;
+		margin: 1em 1em 0 1em;
+	}	
+	.homeImage {
+	 	width: 100%;
+	 	height: 10em;	
+	 	background: $meinnovation-color-third url("../images/heroHeader.jpg") no-repeat;
+	 	color: $meinnovation-color-third;
+	 	border-radius: 2em;
+	 	border: solid .4em $content-border;
+		margin-left: auto;
+		margin-right: auto;
+	}	
+	h1 {	
+		font-size: 1.5em;
+		text-align: center;
+	}	
+	h2 {
+		font-size: 1.25em;
+		text-align: center;
+	}
+	h3 {
+		font-size: 1em;
+		text-align: center;
+	}
+	.columnLayout {
+		width: 100%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.columnGrid {
+		width: 100%;
+		padding: 1em 0em 1em 0;
+	}	
+	.sectionAbout {
+		margin: 1em auto 1em auto;
+	}
+	.sectionAbout ul{
+		margin: 1em;
+	}
+	nav > ul > li {
+		padding: 0;
+		margin: .1em;
+		display: block;
+		list-style-type: none;
+		font-size: 1.75em;
+	}
+	nav > ul {
+		width: 100%;
+		float: none;
+		margin: 0;
+		text-align: center;
+		padding: 0;
+	}
+	nav > ul > li > div.mobileNav {
+		border: solid .1em #aaa;
+		padding: .4em 1.2em .4em .8em;
+		border-radius: .8em;
+		background-color: $meinnovation-color-primary;
+		text-shadow: none;
+		display: block;
+	}
+	.mobileNav:hover {
+		background-color: $meinnovation-color-secondary;
+		color: $meinnovation-color-third;
+	}
+	.mobileNav a{
+		color: $meinnovation-color-third;
+		text-decoration: none;
+	}
+	.mobileNav a:hover {
+		color: $meinnovation-color-third;
+	}
+	.mobileNav a:focus {	
+		color: $meinnovation-color-third;
+	}
+	a:visited.selected {
+		color: #999;
+		text-decoration: none;
+	}
+	label {
+		width: 5em;
+		float: none;
+	}
+	input {
+		margin-left: 0em;
+		margin-bottom: .25em;
+	}
+	input[type="text"]{	
+		width: 13em;
+	}
+	input[type="email"]{	
+		width: 13em;
+	}
+	input#phone{
+	width: 13em;
+	margin-bottom: 2em;
+	}
+	textarea {
+		height: 10em;	
+		width: 13em;
+		margin: 2em auto 2em auto;
+		display: block;
+	}
+	.homeImage p {
+		font-size: 1.75em;
+		font-weight: bold;
+		margin: 1em;
+		text-align: center;
+		text-shadow: .05em .04em #666;
+	}
+	aside {	
+		display: none;
+	}
+	.navClass {
+		margin: 0 auto 1.5em auto;
+	}
+	.homeSection {
+		display: none;
+	}
+	footer {
+		text-align: center;
+		left: 24%;
+		margin: 0 auto 1em auto;
+	}
+	section {
+		vertical-align:middle;
+		width: 100%;
+		margin: 0 auto 1em auto;
+	}
+	.mobileRemove {
+		display: none;
+	}
+	input[type=submit] {
+		width: 12em;
+		height: 2em;
+		font-size: 1em;
+		margin: 0 auto 1em auto;
+		display: block;
+	}
+	input[type=reset] {
+		width: 12em;
+		height: 2em;
+		font-size: 1em;
+		display: block;
+	    margin: 0 auto 1em auto;
+	}
+	#checkboxes {
+		display: block;
+		margin: 0em auto 1em auto;
+		padding-left: .45em;
+	}
+	#fields {
+		display: block;
+		margin: 0 auto 0 auto;
+		padding-left: .45em;
+	}
+	fieldset {
+		display: block;
+		margin: 0 auto 0 auto;
+	}
+	.wrappedElement {
+		border: .25em solid $meinnovation-color-primary;
+	}
+	.wrappedElementHide {
+		display: none;
+	}
+	img.wrappedElement {
+		border-color: $meinnovation-color-primary;
+		border-width: .20em;
+	}
+	div.wrappedElement {
+		padding: .4em;	
+	}
+	.buttonNav {
+		padding: 0em;
+		border-radius: 0em;
+		width: 100%;
+	}
+	.buttonNav div{
+		border: solid .1em #aaa;
+		padding: .4em .4em .4em .8em;
+		border-radius: 1em;
+		background-color: $meinnovation-color-secondary;
+		text-shadow: none;
+		text-align: center;
+		display: block;
+		margin-bottom: .2em;
+	}
+	.buttonNav div:hover{
+		border: solid .1em #aaa;
+		padding: .4em .4em .4em .8em;
+		border-radius: 1em;
+		background-color: $meinnovation-color-primary;
+		text-shadow: none;
+		text-align: center;
+		display: block;
+		margin-bottom: .2em;
+	}
+	button {
+		background-color: transparent;
+		color:$meinnovation-color-third;
+		font-size: 1.25em;
+		border-radius: 0em;
+		padding: 0em;
+		margin: 0em;
+		border: none;
+		box-shadow: none;
+	}
+	button:hover {
+		background-color:$meinnovation-color-primary;
+		color:$meinnovation-color-third;
+		font-size: 1.25em;
+		border-radius: 0em;
+		padding: 0em;
+		margin: 0em;
+		border: none;
+		box-shadow: none;
+	}
+	#imageContainer {
+		margin: 1.8em auto 1.8em auto;
+		padding: 1em;
+		width: 80%;
+		display: block;
+		background-color: rgba(0,0,0,0.1);
+	}
+	#imageContainer img{
+		padding: .4em;
+		width: 12%;
+	}
+	#results {
+		padding: 1.7em;
+		margin-bottom: 3.6em;	
+		color: $meinnovation-color-third;
+		font-weight: bold;
+		background-color: $meinnovation-color-primary;
+		border-radius: .4em;
+	}
+	#jqueryShow {
+		padding: 10px;	
+	}
+	#clear {
+		background-color: transparent;
+		color:$meinnovation-color-third;
+	}
+	#clear:hover {
+		background-color: transparent;
+		color:$meinnovation-color-third;
+	}
+	.columnGallLayout {
+		width: 100%;
+		margin: 0em 3em 0em 1.25em;
+		height: 28em;
+	}
+	.gallImages {
+		width: 25%;	
+	}
+	#thumblist {
+		background-color: #999;
+		padding: 15px 0px 15px 15px;
+		display: block;
+	}
+	.portColumnGrid {
+		width: 70%;	
+		margin: 0em 7em 0em 0em;
+	}
+	#thumblist img:hover {
+		background-color: $meinnovation-color-primary;
+		opacity: .4;
+	}
+	.portThumbColumnGrid {
+		width: 80%;
+	}
+	#thumbnail {
+		width: 80%;
+		height: 80%;
+		border: solid .5em $meinnovation-color-primary;
+		background-color: #666;
+	}
+	#japp {
+		font-family: $font;
+		font-size: 1em;
+		color: black;
+		margin: 4em;
+		background-color: rgba(0,0,0,0.1);
+		border-radius: 0em;
+		box-shadow: none;
+		padding: .9em;	
+		text-align: center;
+	}
+	#linkedIn {
+		display: block;
+		margin: 0 auto 20px;
+		float: none;
+	}
+}
+
+
+
